@@ -1,3 +1,3 @@
 # syslog-test
 
-An attempt at sending syslog messages from any platform, including Windows
+An attempt at sending syslog messages from any OS using Go, including Windows
