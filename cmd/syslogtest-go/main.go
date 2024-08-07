@@ -3,7 +3,6 @@ package main
 import (
     "fmt"
     "log"
-    "net"
     "time"
     "github.com/mfrancisbeehive/syslogtest-go/internal/syslog"
 )
