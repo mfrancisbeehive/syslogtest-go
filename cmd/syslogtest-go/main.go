@@ -20,7 +20,7 @@ func main() {
     }
 
     // Replace with your syslog server address
-    hostPort := "udp:localhost:514"
+    hostPort := "localhost:514"
 
     conn, err := syslog.ConnectToSyslogServer(hostPort)
     if err != nil {

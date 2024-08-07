@@ -17,7 +17,7 @@ type SyslogMessage struct {
 }
 
 func ConnectToSyslogServer(hostPort string) (net.Conn, error) {
-    conn, err := net.Dial("tcp", hostPort)
+    conn, err := net.Dial("udp", hostPort)
     if err != nil {
         return nil, fmt.Errorf("failed to connect to syslog server: %w", err)
     }
